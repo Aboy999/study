@@ -1,0 +1,2 @@
+"use strict";(self["webpackChunkstudy_project"]=self["webpackChunkstudy_project"]||[]).push([[985],{3985:function(t,e,s){s.r(e),s.d(e,{default:function(){return i}});var a=function(){var t=this,e=t._self._c;return e("div",[t._v("我是天气")])},n=[],r={name:"MyWeather",weather:[],mounted(){this.getWeather()},methods:{async getWeather(){let t=await this.$http.get("https://api.asilu.com/weather/?city=昌黎");console.log(t)}}},u=r,h=s(1001),c=(0,h.Z)(u,a,n,!1,null,"4fbd5417",null),i=c.exports}}]);
+//# sourceMappingURL=985.2745cad9.js.map
